@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    
+    align-items: center;
+   display: flex; 
+   flex-direction: column;
+}
+
+img {
+    width: 300px;;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.repo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    align-items: center;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(10, 10, 10);
+    text-decoration-line: none;
+    padding-bottom: 20px;
+}
